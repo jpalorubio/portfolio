@@ -1,3 +1,8 @@
-<button (click)="toggle()" aria-label="Toggle theme">
-      {{ theme() == 'dark' ? '🌙' : '☀️' }}
-</button>
+
+    <button
+      mat-icon-button
+      [matTooltip]="themeService.isDark() ? 'Cambiar a claro' : 'Cambiar a oscuro'"
+      (click)="themeService.toggle()"
+      aria-label="Cambiar tema">
+      <mat-icon>{{ themeService.isDark() ? 'light_mode' : 'dark_mode' }}</mat-icon>
+    </button>

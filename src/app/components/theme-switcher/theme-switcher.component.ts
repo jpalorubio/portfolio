@@ -1,23 +1,16 @@
 import { Component, inject } from '@angular/core';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTooltipModule } from '@angular/material/tooltip';
 import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-theme-switcher',
-  imports: [],
-  templateUrl: './theme-switcher.component.html',
-  styleUrl: './theme-switcher.component.scss'
+  standalone: true,
+  imports: [MatIconModule, MatButtonModule, MatTooltipModule],
+  templateUrl: './theme-switcher.component.html'  // ← templateUrl
 })
-export class ThemeSwitcherComponent {
-
- private themeService = inject(ThemeService);
-
-  // Solo lectura (por si quieres mostrar iconos distintos)
-  theme = this.themeService.theme;
-
-  toggle() {
-    this.themeService.toggleTheme();
-  }
-
+export class ThemeSwitcherComponent {  // ← nombre consistente
+  themeService = inject(ThemeService);
 }
-
 

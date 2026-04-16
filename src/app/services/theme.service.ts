@@ -1,47 +1,26 @@
-import { Injectable, signal } from '@angular/core';
-
-export type AppTheme = 'light' | 'dark';
-
-const THEME_STORAGE_KEY = 'app_theme';
+import { Injectable, signal, effect, inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 @Injectable({ providedIn: 'root' })
 export class ThemeService {
-
-  private readonly themeSignal = signal<AppTheme>('light');
-  readonly theme = this.themeSignal.asReadonly();
+  private doc = inject(DOCUMENT);
+  isDark = signal<boolean>(false);
 
   constructor() {
-    const storedTheme = this.getStoredTheme();
-    const initialTheme = storedTheme ?? 'light';
+    const saved = localStorage.getItem('theme');
+    if (saved) {
+      this.isDark.set(saved === 'dark');
+    } else {
+      this.isDark.set(window.matchMedia('(prefers-color-scheme: dark)').matches);
+    }
 
-    this.themeSignal.set(initialTheme);
-    this.applyTheme(initialTheme);
+    effect(() => {
+      this.doc.body.classList.toggle('dark-theme', this.isDark());
+      localStorage.setItem('theme', this.isDark() ? 'dark' : 'light');
+    });
   }
 
-  toggleTheme() {
-    const nextTheme: AppTheme =
-      this.themeSignal() == 'light' ? 'dark' : 'light';
-
-    this.setTheme(nextTheme);
-  }
-
-  setTheme(theme: AppTheme) {
-    if (theme == this.themeSignal()) return;
-
-    this.themeSignal.set(theme);
-    localStorage.setItem(THEME_STORAGE_KEY, theme);
-    this.applyTheme(theme);
-  }
-
-  private applyTheme(theme: AppTheme) {
-    document.body.classList.remove('light', 'dark');
-    document.body.classList.add(theme);
-  }
-
-  private getStoredTheme(): AppTheme | null {
-    const theme = localStorage.getItem(THEME_STORAGE_KEY);
-    return theme == 'light' || theme == 'dark'
-      ? theme
-      : null;
+  toggle(): void {
+    this.isDark.update(v => !v);
   }
 }
