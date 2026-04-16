@@ -1,0 +1,36 @@
+.lang-switcher {
+  display: flex;
+  gap: 4px;
+
+  button {
+    min-width: unset;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    opacity: 0.6;
+    transition: opacity 0.2s ease;
+
+    &.active {
+      opacity: 1;
+      color: var(--mat-sys-primary);
+      font-weight: 600;
+    }
+
+    &:hover {
+      opacity: 1;
+    }
+
+  .flag {
+  width: 24px;
+  height: 18px;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+    .code {
+      font-size: 0.75rem;
+      letter-spacing: 0.05em;
+    }
+  }
+}
