@@ -1,0 +1,38 @@
+<div class="projects-wrapper">
+
+  <section class="projects-hero">
+    <p class="section-label">Proyectos</p>
+    <h1>Lo que he construido</h1>
+    <p class="projects-desc">Una selección de proyectos personales y profesionales.</p>
+  </section>
+
+  <section class="section">
+    <div class="skills-grid">
+      @for (skill of skills(); track skill) {
+        <mat-chip
+          [class.active]="isSelected(skill)"
+          (click)="toggleTech(skill)">
+          {{ skill }}
+        </mat-chip>
+      }
+    </div>
+  </section>
+
+  <section class="section">
+    @if (loading()) {
+      <div class="loading">
+        <mat-spinner diameter="40" />
+      </div>
+    } @else {
+      <div class="projects-grid">
+        @for (project of filteredProjects(); track project.name) {
+          <app-project-card [project]="project" />
+        }
+        @if (filteredProjects().length === 0) {
+          <p class="no-results">No hay proyectos con esas tecnologías.</p>
+        }
+      </div>
+    }
+  </section>
+
+</div>

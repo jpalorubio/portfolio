@@ -1,1 +1,74 @@
-<p>contact works!</p>
+<div class="contact-wrapper">
+
+  <section class="contact-hero">
+    <p class="section-label">Contacto</p>
+    <h1>Hablemos</h1>
+    <p class="contact-desc">¿Tienes un proyecto en mente o quieres colaborar? Escríbeme.</p>
+  </section>
+
+  <div class="contact-layout">
+
+    <div class="contact-info">
+      <p class="section-label">Encuéntrame en</p>
+
+      <a class="contact-link" href="mailto:tuemail@email.com">
+        <mat-icon>email</mat-icon>
+        <span>tuemail&#64;email.com</span>
+      </a>
+      <a class="contact-link" href="https://linkedin.com/in/tuperfil" target="_blank">
+        <mat-icon>work</mat-icon>
+        <span>linkedin.com/in/tuperfil</span>
+      </a>
+      <a class="contact-link" href="https://github.com/tuusuario" target="_blank">
+        <mat-icon>code</mat-icon>
+        <span>github.com/tuusuario</span>
+      </a>
+    </div>
+
+    <mat-card class="contact-form-card">
+      <mat-card-content>
+        <form [formGroup]="form" (ngSubmit)="send()">
+
+          <mat-form-field appearance="outline">
+            <mat-label>Nombre</mat-label>
+            <input matInput formControlName="name" />
+            @if (form.get('name')?.invalid && form.get('name')?.touched) {
+              <mat-error>El nombre es obligatorio</mat-error>
+            }
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email" type="email" />
+            @if (form.get('email')?.invalid && form.get('email')?.touched) {
+              <mat-error>Email inválido</mat-error>
+            }
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Asunto</mat-label>
+            <input matInput formControlName="subject" />
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Mensaje</mat-label>
+            <textarea matInput formControlName="message" rows="5"></textarea>
+            @if (form.get('message')?.invalid && form.get('message')?.touched) {
+              <mat-error>El mensaje es obligatorio</mat-error>
+            }
+          </mat-form-field>
+
+          <button mat-flat-button type="submit" [disabled]="form.invalid || sending()">
+            {{ sending() ? 'Enviando...' : 'Enviar mensaje' }}
+          </button>
+
+          @if (sent()) {
+            <p class="success-msg">¡Mensaje enviado correctamente!</p>
+          }
+
+        </form>
+      </mat-card-content>
+    </mat-card>
+
+  </div>
+</div>

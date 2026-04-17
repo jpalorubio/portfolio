@@ -1,66 +1,74 @@
 [
   {
-    "name": "TaskFlow",
-    "type": "Web App",
-    "desc": "Aplicación de gestión de tareas colaborativas con tableros Kanban y notificaciones en tiempo real.",
-    "techs": ["Angular", "TypeScript", "Firebase"],
-    "urlDemo": "https://taskflow-demo.app",
-    "urlCode": "https://github.com/user/taskflow"
+    "id": "portfolio",
+    "name": "card.projects.portfolio.name",
+    "type": "card.projects.portfolio.type",
+    "desc": "card.projects.portfolio.desc",
+    "techs": ["HTML", "CSS", "JavaScript"],
+    "urlDemo": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal/Demo",
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal"
   },
   {
-    "name": "ShopNest",
-    "type": "E-commerce",
-    "desc": "Plataforma de comercio electrónico con carrito de compras, pagos online y panel de administración.",
-    "techs": ["React", "Node.js", "MongoDB", "Stripe"],
-    "urlDemo": "https://shopnest.app",
-    "urlCode": "https://github.com/user/shopnest"
-  },
-  {
-    "name": "WeatherNow API",
-    "type": "API REST",
-    "desc": "API REST para consultar información meteorológica actual y pronósticos por ciudad.",
-    "techs": ["Spring Boot", "Java", "PostgreSQL"],
+    "id": "tasks",
+    "name": "card.projects.tasks.name",
+    "type": "card.projects.tasks.type",
+    "desc": "card.projects.tasks.desc",
+    "techs": ["PHP", "MySQL", "HTML", "CSS"],
     "urlDemo": "",
-    "urlCode": "https://github.com/user/weathernow-api"
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/GestorTareas"
   },
   {
-    "name": "FitTrack",
-    "type": "Mobile App",
-    "desc": "Aplicación móvil para seguimiento de actividad física y hábitos saludables.",
-    "techs": ["Flutter", "Dart", "Firebase"],
-    "urlDemo": "https://fittrack.app",
-    "urlCode": "https://github.com/user/fittrack"
-  },
-  {
-    "name": "Blogify CMS",
-    "type": "Web App",
-    "desc": "Sistema de gestión de contenidos para blogs con editor Markdown y autenticación de usuarios.",
-    "techs": ["Next.js", "TypeScript", "Prisma", "MySQL"],
-    "urlDemo": "https://blogifycms.vercel.app",
-    "urlCode": "https://github.com/user/blogify-cms"
-  },
-  {
-    "name": "InvoicePro",
-    "type": "Desktop App",
-    "desc": "Aplicación de escritorio para la generación y gestión de facturas en PDF.",
-    "techs": ["Electron", "JavaScript", "SQLite"],
+    "id": "shop",
+    "name": "card.projects.shop.name",
+    "type": "card.projects.shop.type",
+    "desc": "card.projects.shop.desc",
+    "techs": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
     "urlDemo": "",
-    "urlCode": "https://github.com/user/invoicepro"
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/TiendaOnline"
   },
   {
-    "name": "AuthGuard",
-    "type": "Microservicio",
-    "desc": "Servicio de autenticación y autorización con JWT y roles de usuario.",
-    "techs": ["Node.js", "Express", "JWT", "Redis"],
+    "id": "apiUsers",
+    "name": "card.projects.apiUsers.name",
+    "type": "card.projects.apiUsers.type",
+    "desc": "card.projects.apiUsers.desc",
+    "techs": ["Spring Boot", "Java", "MySQL"],
     "urlDemo": "",
-    "urlCode": "https://github.com/user/authguard"
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/ApiGestionUsuarios"
   },
   {
-    "name": "EduStats",
-    "type": "Dashboard",
-    "desc": "Panel de visualización de estadísticas educativas con gráficos interactivos.",
-    "techs": ["Vue.js", "Chart.js", "REST API"],
-    "urlDemo": "https://edustats.app",
-    "urlCode": "https://github.com/user/edustats"
+    "id": "blog",
+    "name": "card.projects.blog.name",
+    "type": "card.projects.blog.type",
+    "desc": "card.projects.blog.desc",
+    "techs": ["PHP", "MySQL", "HTML", "CSS"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/BlogDaw"
+  },
+  {
+    "id": "library",
+    "name": "card.projects.library.name",
+    "type": "card.projects.library.type",
+    "desc": "card.projects.library.desc",
+    "techs": ["Java", "JavaFX"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/GestionBiblioteca"
+  },
+  {
+    "id": "adminPanel",
+    "name": "card.projects.adminPanel.name",
+    "type": "card.projects.adminPanel.type",
+    "desc": "card.projects.adminPanel.desc",
+    "techs": ["Angular", "TypeScript", "CSS"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PanelAdmin"
+  },
+  {
+    "id": "reservations",
+    "name": "card.projects.reservations.name",
+    "type": "card.projects.reservations.type",
+    "desc": "card.projects.reservations.desc",
+    "techs": ["PHP", "MySQL", "JavaScript"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/WebReservas"
   }
 ]

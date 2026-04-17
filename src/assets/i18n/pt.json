@@ -5,7 +5,80 @@
     "works": "Projetos",
     "contact": "Contato"
 
+},
+"home":{
+    "hero": {
+        "tag": "Disponível para projetos",
+        "title": "Olá, eu sou Jesús",
+        "subtitle": "Desenvolvedor Full Stack",
+        "desc": "Construo aplicações web modernas, escaláveis e com uma excelente experiência do usuário.   ",
+        "buttons": {
+            "viewProjects": "Ver projetos",
+            "contact": "Contato"           
+    
+        }
+
+    },
+    "skills": "Tecnologias",
+    "featuredProjects": "Projetos em destaque"
+},
+"card":{
+
+
+  "projects": {
+    "portfolio": {
+      "name": "Portfólio Pessoal",
+      "type": "Site Estático",
+      "desc": "Site pessoal para apresentar meu perfil, estudos e projetos como estudante de DAW."
+    },
+    "tasks": {
+      "name": "Gerenciador de Tarefas",
+      "type": "Web App",
+      "desc": "Aplicação web para criar, editar e excluir tarefas com autenticação básica de usuários."
+    },
+    "shop": {
+      "name": "Loja Online DAW",
+      "type": "E-commerce",
+      "desc": "Projeto de loja online com listagem de produtos, carrinho de compras e sistema de pedidos."
+    },
+    "apiUsers": {
+      "name": "API de Gestão de Usuários",
+      "type": "API REST",
+      "desc": "API REST simples para gerenciamento de usuários com operações CRUD."
+    },
+    "blog": {
+      "name": "Blog DAW",
+      "type": "Web App",
+      "desc": "Aplicação web estilo blog com sistema de publicações e comentários."
+    },
+    "library": {
+      "name": "Gestão de Biblioteca",
+      "type": "Aplicação Desktop",
+      "desc": "Programa para gerenciar livros e empréstimos desenvolvido como prática de programação."
+    },
+    "adminPanel": {
+      "name": "Painel de Administração",
+      "type": "Web App",
+      "desc": "Painel de administração para gerenciar usuários e conteúdos de uma aplicação web."
+    },
+    "reservations": {
+      "name": "Site de Reservas",
+      "type": "Web App",
+      "desc": "Aplicação web para gerenciar reservas de um negócio fictício com base de dados."
+    }
+  },
+"buttons": {
+  "demo": "Ver Demonstração",
+  "code": "Ver Código"
 }
 
 }
+
+
+
+}
+
+
+
+
     
