@@ -5,6 +5,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
+import { ContactService } from '../../services/contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -22,7 +23,7 @@ import { MatIconModule } from '@angular/material/icon';
 })
 export class ContactComponent {
   private fb = inject(FormBuilder);
-
+  private contactService = inject(ContactService);
   sending = signal(false);
   sent = signal(false);
 
@@ -33,15 +34,16 @@ export class ContactComponent {
     message: ['', Validators.required],
   });
 
-  send() {
+ send() {
     if (this.form.invalid) return;
     this.sending.set(true);
 
-    // Aquí conectas con tu backend o EmailJS
+    const ok = this.contactService.send(this.form.value as any);
+
     setTimeout(() => {
       this.sending.set(false);
-      this.sent.set(true);
-      this.form.reset();
-    }, 1500);
+      this.sent.set(ok);
+      if (ok) this.form.reset();
+    }, 500);
   }
 }

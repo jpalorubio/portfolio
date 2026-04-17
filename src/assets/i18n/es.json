@@ -15,8 +15,7 @@
         "desc": "Construyo aplicaciones web modernas, escalables y con buena experiencia de usuario.   ",
         "buttons": {
             "viewProjects": "Ver proyectos",
-            "contact": "Contacto"           
-    
+            "contact": "Contacto"              
         }
 
     },
@@ -72,7 +71,23 @@
     "demo": "Ver Demo",
     "code": "Ver Código"
 }
+},
+"about": {
+    "title": "Sobre mí",
+    "desc": "Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas y escalables. Me apasiona aprender nuevas tecnologías y mejorar mis habilidades constantemente. Mi objetivo es contribuir a proyectos innovadores y seguir creciendo profesionalmente en el mundo del desarrollo web."
+},
+"Projects": {
+    "title": "Proyectos",
+    "desc": "Aquí puedes ver algunos de los proyectos en los que he trabajado. Cada proyecto incluye una breve descripción, las tecnologías utilizadas y enlaces para ver la demo o el código fuente."
+},
+
+"contact": {
+    "title": "Contacto",
+    "desc": "Si deseas ponerte en contacto conmigo para discutir oportunidades de colaboración, proyectos o simplemente para saludar, no dudes en enviarme un mensaje. Estoy abierto a nuevas conexiones y siempre dispuesto a conversar sobre tecnología y desarrollo web."
+
 }
+
 }
+
 
 

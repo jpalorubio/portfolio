@@ -61,6 +61,25 @@
       width: 18px;
       height: 18px;
     }
+
+     .social-icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--mat-sys-primary);
+    flex-shrink: 0;
+  }
+
+  span {
+    color: var(--mat-sys-on-surface-variant);
+  }
+
+  &:hover {
+    color: var(--mat-sys-primary);
+
+    span {
+      color: var(--mat-sys-primary);
+    }
+  }
   }
 }
 
@@ -95,4 +114,9 @@
   text-transform: uppercase;
   color: var(--mat-sys-on-surface-variant);
   margin-bottom: 1.5rem;
+}
+
+button[mat-flat-button] {
+  background-color: var(--mat-sys-primary) !important;
+  color: var(--mat-sys-on-primary) !important;
 }
