@@ -1,0 +1,66 @@
+[
+  {
+    "name": "TaskFlow",
+    "type": "Web App",
+    "desc": "Aplicación de gestión de tareas colaborativas con tableros Kanban y notificaciones en tiempo real.",
+    "techs": ["Angular", "TypeScript", "Firebase"],
+    "urlDemo": "https://taskflow-demo.app",
+    "urlCode": "https://github.com/user/taskflow"
+  },
+  {
+    "name": "ShopNest",
+    "type": "E-commerce",
+    "desc": "Plataforma de comercio electrónico con carrito de compras, pagos online y panel de administración.",
+    "techs": ["React", "Node.js", "MongoDB", "Stripe"],
+    "urlDemo": "https://shopnest.app",
+    "urlCode": "https://github.com/user/shopnest"
+  },
+  {
+    "name": "WeatherNow API",
+    "type": "API REST",
+    "desc": "API REST para consultar información meteorológica actual y pronósticos por ciudad.",
+    "techs": ["Spring Boot", "Java", "PostgreSQL"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/user/weathernow-api"
+  },
+  {
+    "name": "FitTrack",
+    "type": "Mobile App",
+    "desc": "Aplicación móvil para seguimiento de actividad física y hábitos saludables.",
+    "techs": ["Flutter", "Dart", "Firebase"],
+    "urlDemo": "https://fittrack.app",
+    "urlCode": "https://github.com/user/fittrack"
+  },
+  {
+    "name": "Blogify CMS",
+    "type": "Web App",
+    "desc": "Sistema de gestión de contenidos para blogs con editor Markdown y autenticación de usuarios.",
+    "techs": ["Next.js", "TypeScript", "Prisma", "MySQL"],
+    "urlDemo": "https://blogifycms.vercel.app",
+    "urlCode": "https://github.com/user/blogify-cms"
+  },
+  {
+    "name": "InvoicePro",
+    "type": "Desktop App",
+    "desc": "Aplicación de escritorio para la generación y gestión de facturas en PDF.",
+    "techs": ["Electron", "JavaScript", "SQLite"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/user/invoicepro"
+  },
+  {
+    "name": "AuthGuard",
+    "type": "Microservicio",
+    "desc": "Servicio de autenticación y autorización con JWT y roles de usuario.",
+    "techs": ["Node.js", "Express", "JWT", "Redis"],
+    "urlDemo": "",
+    "urlCode": "https://github.com/user/authguard"
+  },
+  {
+    "name": "EduStats",
+    "type": "Dashboard",
+    "desc": "Panel de visualización de estadísticas educativas con gráficos interactivos.",
+    "techs": ["Vue.js", "Chart.js", "REST API"],
+    "urlDemo": "https://edustats.app",
+    "urlCode": "https://github.com/user/edustats"
+  }
+]

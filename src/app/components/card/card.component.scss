@@ -1,0 +1,28 @@
+mat-card {
+  height: 100%;
+  background-color: var(--mat-sys-surface-container);
+
+  mat-card-header {
+    margin-bottom: 8px;
+  }
+
+  .project-type {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--mat-sys-on-surface-variant);
+    margin: 0 0 4px;
+  }
+
+  mat-card-content {
+    p {
+      font-size: 14px;
+      color: var(--mat-sys-on-surface-variant);
+      line-height: 1.6;
+    }
+  }
+
+  mat-card-actions {
+    padding: 8px;
+  }
+}

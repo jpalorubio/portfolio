@@ -1,1 +1,37 @@
-<p>home works!</p>
+<!-- HERO -->
+<section class="hero">
+  <p class="hero-tag">Disponible para proyectos</p>
+  <h1 class="hero-name">Tu Nombre</h1>
+  <p class="hero-title">Fullstack Developer</p>
+  <p class="hero-desc">
+    Construyo aplicaciones web modernas, escalables y con buena experiencia de usuario.
+  </p>
+  <div class="hero-btns">
+    <button mat-flat-button routerLink="/projects">Ver proyectos</button>
+    <button mat-stroked-button routerLink="/contact">Contacto</button>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="section">
+  <p class="section-label">Tecnologías</p>
+  <div class="skills-grid">
+    @for (skill of skills(); track skill) {
+      <mat-chip
+        [class.active]="isSelected(skill)"
+        (click)="toggleTech(skill)">
+        {{ skill }}
+      </mat-chip>
+    }
+  </div>
+</section>
+
+<!-- PROYECTOS DESTACADOS -->
+<section class="section">
+  <p class="section-label">Proyectos destacados</p>
+  <div class="projects-grid">
+    @for (project of filteredProjects(); track project.name) {
+      <app-project-card [project]="project" />
+    }
+  </div>
+</section>
