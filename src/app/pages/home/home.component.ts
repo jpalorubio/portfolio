@@ -6,11 +6,12 @@ import { Project } from '../../models/project.model';
 import { TranslateModule } from '@ngx-translate/core';
 import { gsap } from 'gsap';
 import { RouterModule } from '@angular/router';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent, SkillListComponent, TranslateModule, RouterModule],
+  imports: [CardComponent, SkillListComponent, TranslateModule, RouterModule, MatButtonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

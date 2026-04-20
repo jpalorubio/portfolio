@@ -1,5 +1,10 @@
 <mat-card class="project-card">
 
+  @if (project().image) {
+    <div class="card-image">
+      <img [src]="project().image" [alt]="project().name | translate" />
+    </div>
+  }
   <mat-card-header>
         <mat-card-title>
       {{ project().name | translate }}

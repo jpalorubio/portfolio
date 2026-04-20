@@ -1,20 +1,26 @@
 <!-- HERO -->
 <section class="hero">
-  <p class="hero-tag">{{ 'home.hero.tag' | translate }}</p>
-  <h1 class="hero-name">{{ 'home.hero.title' | translate }}</h1>
-  <p class="hero-title">{{ 'home.hero.subtitle' | translate }}</p>
-  <p class="hero-desc">
-    {{ 'home.hero.desc' | translate }}
-  </p>
-<div class="hero-btns">
-  <button mat-raised-button class="hero-btn primary" routerLink="/projects">
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hero-tag">{{ 'home.hero.tag' | translate }}</p>
+      <h1 class="hero-name">{{ 'home.hero.title' | translate }}</h1>
+      <p class="hero-title">{{ 'home.hero.subtitle' | translate }}</p>
+      <p class="hero-desc">{{ 'home.hero.desc' | translate }}</p>
+      <div class="hero-btns">
+       <div class="hero-btns">
+  <a mat-flat-button routerLink="/projects">
     {{ 'home.hero.buttons.viewProjects' | translate }}
-  </button>
-
-  <button mat-stroked-button class="hero-btn primary" routerLink="/contact">
+  </a>
+  <a mat-stroked-button routerLink="/contact">
     {{ 'home.hero.buttons.contact' | translate }}
-  </button>
+  </a>
 </div>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="assets/img/yo.jpg" alt="Tu nombre" />
+    </div>
+  </div>
 </section>
 
 <!-- SKILLS -->

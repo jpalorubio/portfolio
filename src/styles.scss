@@ -6,7 +6,7 @@ html, body {
   @include mat.theme((
     color: (
       theme-type: light,
-      primary: mat.$violet-palette,
+      primary: mat.$azure-palette
     ),
     typography: Roboto,
     density: 0,
@@ -14,11 +14,16 @@ html, body {
 }
 
 body {
-  background-color: var(--mat-sys-background);
+  --mat-sys-background: #bfbec0;
+  --mat-sys-surface: #d4d4d4;
+  --mat-sys-surface-container: #d5d5da;
+  --mat-sys-surface-container-high: #d1d1d6;
+  background-color: #d6d4d4;
   color: var(--mat-sys-on-background);
 }
 
 body.dark-theme {
+  background-color: var(--mat-sys-background);
   @include mat.theme((
     color: (
       theme-type: dark,

@@ -2,6 +2,7 @@ export interface Project {
   name: string;
   type: string;
   desc: string;
+  image?: string;
   techs: string[];
   urlDemo?: string;
   urlCode?: string;
