@@ -8,6 +8,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { ContactService } from '../../services/contact.service';
 import { TranslateModule } from '@ngx-translate/core';
 import { gsap } from 'gsap';
+import { SocialLinksComponent } from '../../components/social-links/social-links.component';
 
 @Component({
   selector: 'app-contact',
@@ -19,7 +20,8 @@ import { gsap } from 'gsap';
     MatButtonModule,
     MatCardModule,
     MatIconModule,
-    TranslateModule
+    TranslateModule,
+    SocialLinksComponent
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'
