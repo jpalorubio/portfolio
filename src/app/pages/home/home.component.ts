@@ -45,12 +45,6 @@ export class HomeComponent implements OnInit, AfterViewInit {
       ease: 'power3.out'
     });
 
-    gsap.from('.skill-chip', {
-      opacity: 0,
-      y: -20,
-      duration: 0.6,
-      ease: 'power3.out',
-      stagger: { each: 0.08, from: 'start' }
-    });
+    
   }
 }

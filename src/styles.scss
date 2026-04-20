@@ -14,6 +14,7 @@ html, body {
 }
 
 body {
+  font-size: 18px;
   --mat-sys-background: #bfbec0;
   --mat-sys-surface: #d4d4d4;
   --mat-sys-surface-container: #d5d5da;
@@ -30,4 +31,12 @@ body.dark-theme {
       primary: mat.$azure-palette,
     ),
   ));
+}
+
+.section-label {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--mat-sys-primary);
+  margin-bottom: 1.5rem;
 }

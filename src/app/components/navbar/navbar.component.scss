@@ -14,7 +14,7 @@ background-color: var(--mat-sys-surface-container) !important;
     gap: 4px;
 
     button.active {
-      color: var(--mat-sys-primary);
+      color: var(--mat-sys-primary)!important;
       font-weight: 600;
     }
   }

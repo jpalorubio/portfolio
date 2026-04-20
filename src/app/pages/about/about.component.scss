@@ -41,6 +41,7 @@
       color: var(--mat-sys-on-surface-variant);
       line-height: 1.7;
       margin: 0 0 1.5rem;
+      text-align: justify;
     }
 
     .about-btns {
@@ -54,13 +55,10 @@
   padding: 3rem 0;
   border-bottom: 0.5px solid var(--mat-sys-outline-variant);
 
-  .section-label {
-    font-size: 11px;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: var(--mat-sys-on-surface-variant);
-    margin-bottom: 1.5rem;
-  }
+}
+
+.section-label{
+  font-size: 20px !important;
 }
 
 .timeline-item {
