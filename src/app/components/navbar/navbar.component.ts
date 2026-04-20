@@ -20,7 +20,7 @@ export class NavbarComponent {
 
   { label: 'menu.home', ruta: '/' },
   { label: 'menu.about', ruta: '/about' },
-  { label: 'menu.works', ruta: '/works' },
+  { label: 'menu.projects', ruta: '/projects' },
   { label: 'menu.contact', ruta: '/contact' },
 
 ]

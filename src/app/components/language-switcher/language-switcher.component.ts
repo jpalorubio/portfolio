@@ -15,9 +15,9 @@ export class LanguageSwitcherComponent {
   lang = this.languageService.lang;
 
 languages = [
-  { code: 'es' as AppLanguage, flag: 'assets/flags/es.png' },
-  { code: 'en' as AppLanguage, flag: 'assets/flags/gb.png' },
-  { code: 'pt' as AppLanguage, flag: 'assets/flags/pt.png' },
+  { code: 'es' as AppLanguage, flag: 'assets/img/flags/es.png' },
+  { code: 'en' as AppLanguage, flag: 'assets/img/flags/gb.png' },
+  { code: 'pt' as AppLanguage, flag: 'assets/img/flags/pt.png' },
 ];
   change(lang: AppLanguage) {
     this.languageService.setLanguage(lang);

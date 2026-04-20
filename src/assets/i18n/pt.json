@@ -2,7 +2,7 @@
 "menu":{
    "home": "Início",
     "about": "Sobre",
-    "works": "Projetos",
+    "projects": "Projetos",
     "contact": "Contato"
 
 },
@@ -23,8 +23,6 @@
     "featuredProjects": "Projetos em destaque"
 },
 "card":{
-
-
   "projects": {
     "portfolio": {
       "name": "Portfólio Pessoal",
@@ -70,12 +68,85 @@
 "buttons": {
   "demo": "Ver Demonstração",
   "code": "Ver Código"
-}
+}   
+  
+},
+"about": {
+    "sectionLabel": "Sobre",
+    "description": "Sou um desenvolvedor full stack com experiência em construir aplicações web modernas e escaláveis. Sou apaixonado por aprender novas tecnologias e melhorar constantemente minhas habilidades. Meu objetivo é contribuir para projetos inovadores e continuar crescendo profissionalmente no mundo do desenvolvimento web.",
+    "buttons": {
+        "downloadCV": "Baixar CV",
+        "contact": "Contato"
+    },
+    "experience": {
+    "title": "Experiência",
+    "items": [
+      {
+        "role": "Técnico de Gestão Informática",
+        "company": "Lider Aliment S.A",
+        "duration": "2021 - 2025",
+        "description": "Gestão e tratamento de dados com Excel, suporte técnico a usuários e colaboração em projetos de melhoria tecnológica."
+      },
+      {
+        "role": "Monitor de Informática",
+        "company": "Câmara Municipal de Zafra",
+        "duration": "2016/2017 - 2019/2020",
+        "description": "Ministração de cursos de informática básica para adultos, incluindo uso de sistemas operacionais, aplicações de escritório e navegação na Internet."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educação",
+    "items": [
+      {
+        "degree": "Licenciatura em Desenvolvimento de Aplicações Web",
+        "institution": "I.E.S Suarez de Figueroa",
+        "duration": "2024 - 2025"
+      },
+      {
+        "degree": "Administração de Sistemas Informáticos em Rede",
+        "institution": "I.E.S Suarez de Figueroa",
+        "duration": "2013 - 2015"
+      }
+    ]
+  }
 
-}
+},
+"projectsTranslation": {
+    "title": "Projetos",
+    "subtitle": "O que eu construí",
+    "desc": "Aqui você pode ver alguns dos projetos em que trabalhei. Cada projeto inclui uma breve descrição, as tecnologias utilizadas e links para ver a demonstração ou o código-fonte.",
+    "noProjects": "Não há projetos com essas tecnologias."
+},
+"contact": {
+    "sectionLabel": "Contato",
+    "title": "Vamos conversar",
+    "description": "Você tem um projeto em mente ou quer colaborar? Escreva para mim.",
+    "findMe": "Encontre-me em",
 
-
-
+    "form": {
+      "name": {
+        "label": "Nome",
+        "error": "O nome é obrigatório"
+      },
+      "email": {
+        "label": "E-mail",
+        "error": "E-mail inválido"
+      },
+      "subject": {
+        "label": "Assunto"
+      },
+      "message": {
+        "label": "Mensagem",
+        "error": "A mensagem é obrigatória"
+      },
+      "submit": {
+        "default": "Enviar mensagem",
+        "sending": "Enviando..."
+      },
+      "success": "Mensagem enviada com sucesso!"
+    }
+  }
 }
 
 

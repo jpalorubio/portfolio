@@ -5,11 +5,12 @@ import { Project } from '../../models/project.model';
 import { MatChipsModule } from '@angular/material/chips';
 import { TranslateModule } from '@ngx-translate/core';
 import {gsap} from 'gsap';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [CardComponent, MatChipsModule, TranslateModule],
+  imports: [CardComponent, MatChipsModule, TranslateModule, RouterModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -76,6 +77,12 @@ from: 'start'
 
 }
 
+
+  menu= [  
+  { label: 'menu.projects', ruta: '/projects' },
+  { label: 'menu.contact', ruta: '/contact' },
+
+]
 
 
 }

@@ -4,11 +4,12 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { CardComponent } from '../../components/card/card.component';
 import { ProjectService } from '../../services/project.service';
 import { Project } from '../../models/project.model';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [MatChipsModule, MatProgressSpinnerModule, CardComponent],
+  imports: [MatChipsModule, MatProgressSpinnerModule, CardComponent, TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })

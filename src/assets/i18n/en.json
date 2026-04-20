@@ -2,7 +2,7 @@
 "menu":{
     "home": "Home",
     "about": "About",
-    "works": "Works",
+    "projects": "Projects",
     "contact": "Contact"
 
 },
@@ -14,7 +14,7 @@
         "desc": "I build modern, scalable web applications with a great user experience.",
         "buttons": {
             "viewProjects": "View Projects",
-            "contact": "Contact"           
+            "contact": "Contact"      
     
         }
 
@@ -71,5 +71,81 @@
     "code": "View Code"
 }
 
+},
+"about": {
+    "sectionLabel": "About",
+    "description": "I'm a full stack developer with experience in building modern, scalable web applications. I'm passionate about learning new technologies and constantly improving my skills. My goal is to contribute to innovative projects and continue growing professionally in the world of web development.",
+    "buttons": {
+        "downloadCV": "Download CV",
+        "contact": "Contact"
+    },
+   "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "IT Management Technician",
+        "company": "Lider Aliment S.A",
+        "duration": "2021 - 2025",
+        "description": "Data management and processing using Excel, technical support for users, and collaboration on technological improvement projects."
+      },
+      {
+        "role": "Computer Instructor",
+        "company": "Zafra City Council",
+        "duration": "2016/2017 - 2019/2020",
+        "description": "Delivery of basic computer courses for adults, including operating systems usage, office software, and internet navigation."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Bachelor's Degree in Web Application Development",
+        "institution": "I.E.S Suarez de Figueroa",
+        "duration": "2024 - 2025"
+      },
+      {
+        "degree": "Network Computer Systems Administration",
+        "institution": "I.E.S Suarez de Figueroa",
+        "duration": "2013 - 2015"
+      }
+    ]
+  }},
+
+  "projectsTranslation": {
+    "title": "Projects",
+    "subtitle": "What I've built",
+    "desc": "Here you can see some of the projects I've worked on. Each project includes a brief description, the technologies used, and links to view the demo or source code.",
+    "noProjects": "There are no projects with those technologies."
+},
+  "contact": {
+    "sectionLabel": "Contact",
+    "title": "Let's talk",
+    "description": "Do you have a project in mind or want to collaborate? Write to me.",
+    "findMe": "Find me on",
+
+    "form": {
+      "name": {
+        "label": "Name",
+        "error": "Name is required"
+      },
+      "email": {
+        "label": "Email",
+        "error": "Invalid email"
+      },
+      "subject": {
+        "label": "Subject"
+      },
+      "message": {
+        "label": "Message",
+        "error": "Message is required"
+      },
+      "submit": {
+        "default": "Send message",
+        "sending": "Sending..."
+      },
+      "success": "Message sent successfully!"
+    }
+  }
 }
-}
+

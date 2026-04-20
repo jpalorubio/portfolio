@@ -6,6 +6,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { ContactService } from '../../services/contact.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-contact',
@@ -17,6 +18,7 @@ import { ContactService } from '../../services/contact.service';
     MatButtonModule,
     MatCardModule,
     MatIconModule,
+    TranslateModule
   ],
   templateUrl: './contact.component.html',
   styleUrl: './contact.component.scss'

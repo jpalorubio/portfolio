@@ -2,7 +2,7 @@
 "menu":{
    "home": "Inicio",
     "about": "Sobre mí",
-    "works": "Trabajos",
+    "projects": "Proyectos",
     "contact": "Contacto"
 
 },
@@ -73,19 +73,83 @@
 }
 },
 "about": {
-    "title": "Sobre mí",
-    "desc": "Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas y escalables. Me apasiona aprender nuevas tecnologías y mejorar mis habilidades constantemente. Mi objetivo es contribuir a proyectos innovadores y seguir creciendo profesionalmente en el mundo del desarrollo web."
+    "sectionLabel": "Sobre mí",
+    "description": "Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas y escalables. Me apasiona aprender nuevas tecnologías y mejorar mis habilidades constantemente. Mi objetivo es contribuir a proyectos innovadores y seguir creciendo profesionalmente en el mundo del desarrollo web.",
+    "buttons": {
+        "downloadCV": "Descargar CV",
+        "contact": "Contacto"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "items": [
+            {
+                "role": "Tecnico informático de gestion",
+                "company": "Lider Aliment S.A",
+                "duration": "2021 - 2025",
+                "description": "Gestion y tratamientos de datos con Excel, soporte técnico a usuarios, y colaboración en proyectos de mejora tecnológica."
+            },
+            {
+                "role": "Monitor informático",
+                "company": "Ayuntamiento de Zafra",
+                "duration": "2016/2017 - 2019/2020",
+                "description": "Impartición de cursos de informática básica para adultos, incluyendo manejo de sistemas operativos, ofimática y navegación por internet."
+            }
+        ]
+    },
+    "education": {
+        "title": "Educación",
+        "items": [
+            {
+                "degree": "Grado en Desarrollo de Aplicaciones Web",
+                "institution": "I.E.S Suarez de Figueroa",
+                "duration": "2024 - 2025"
+            },
+            {
+                "degree": "Administración de Sistemas Informáticos en Red",
+                "institution": "I.E.S Suarez de Figueroa",
+                "duration": "2013 - 2015"
+            }
+        ]
+    }
 },
-"Projects": {
+"projectsTranslation": {
     "title": "Proyectos",
-    "desc": "Aquí puedes ver algunos de los proyectos en los que he trabajado. Cada proyecto incluye una breve descripción, las tecnologías utilizadas y enlaces para ver la demo o el código fuente."
+    "subtitle": "Lo que he construido",
+    "desc": "Aquí puedes ver algunos de los proyectos en los que he trabajado. Cada proyecto incluye una breve descripción, las tecnologías utilizadas y enlaces para ver la demo o el código fuente.",
+    "noProjects": "No hay proyectos con esas tecnologías."
 },
+
 
 "contact": {
-    "title": "Contacto",
-    "desc": "Si deseas ponerte en contacto conmigo para discutir oportunidades de colaboración, proyectos o simplemente para saludar, no dudes en enviarme un mensaje. Estoy abierto a nuevas conexiones y siempre dispuesto a conversar sobre tecnología y desarrollo web."
+    "sectionLabel": "Contacto",
+    "title": "Hablemos",
+    "description": "¿Tienes un proyecto en mente o quieres colaborar? Escríbeme.",
+    "findMe": "Encuéntrame en",
 
-}
+    "form": {
+      "name": {
+        "label": "Nombre",
+        "error": "El nombre es obligatorio"
+      },
+      "email": {
+        "label": "Email",
+        "error": "Email inválido"
+      },
+      "subject": {
+        "label": "Asunto"
+      },
+      "message": {
+        "label": "Mensaje",
+        "error": "El mensaje es obligatorio"
+      },
+      "submit": {
+        "default": "Enviar mensaje",
+        "sending": "Enviando..."
+      },
+      "success": "¡Mensaje enviado correctamente!"
+    }
+  }
+
 
 }
 
