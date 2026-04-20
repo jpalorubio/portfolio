@@ -92,21 +92,6 @@
   }
 }
 
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-
-  .skill-chip {
-    font-size: 13px;
-    padding: 6px 16px;
-    border-radius: 999px;
-    border: 0.5px solid var(--mat-sys-outline);
-    color: var(--mat-sys-on-surface-variant);
-    background-color: var(--mat-sys-surface-container);
-  }
-}
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -117,3 +102,4 @@ mat-chip.active {
   background-color: var(--mat-sys-primary) !important;
   color: var(--mat-sys-on-primary) !important;
 }
+

@@ -18,25 +18,17 @@
 </section>
 
 <!-- SKILLS -->
-<section class="section skills-section">
+<section class="section">
   <p class="section-label">{{ 'home.skills' | translate }}</p>
-  <div class="skills-grid">
-    @for (skill of skills(); track skill) {
-      <mat-chip
-        [class.active]="isSelected(skill)"
-        (click)="toggleTech(skill)">
-        {{ skill }}
-      </mat-chip>
-    }
-  </div>
+  <app-skill-list [skills]="skills()" />
 </section>
 
 <!-- PROYECTOS DESTACADOS -->
 <section class="section projects-section">
   <p class="section-label">{{ 'home.featuredProjects' | translate }}</p>
   <div class="projects-grid">
-    @for (project of filteredProjects(); track project.name) {
-      <app-project-card [project]="project" />
-    }
+  @for (project of projects(); track project.name) {
+  <app-project-card [project]="project" />
+}
   </div>
 </section>

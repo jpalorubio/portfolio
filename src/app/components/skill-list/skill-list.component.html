@@ -1,0 +1,12 @@
+<div class="skills-grid">
+  @for (skill of skills(); track skill) {
+    <div
+      class="skill-chip"
+      [class.active]="isSelected(skill)"
+      [class.clickable]="filterable()"
+      (click)="toggle(skill)">
+      <i [class]="skillIcons[skill] || 'devicon-devicon-plain'"></i>
+      <span>{{ skill }}</span>
+    </div>
+  }
+</div>

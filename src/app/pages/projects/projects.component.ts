@@ -1,15 +1,15 @@
 import { Component, inject, signal, computed, OnInit } from '@angular/core';
-import { MatChipsModule } from '@angular/material/chips';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { CardComponent } from '../../components/card/card.component';
+import { SkillListComponent } from '../../components/skill-list/skill-list.component';
 import { ProjectService } from '../../services/project.service';
 import { Project } from '../../models/project.model';
 import { TranslateModule } from '@ngx-translate/core';
+import { CardComponent } from '../../components/card/card.component';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [MatChipsModule, MatProgressSpinnerModule, CardComponent, TranslateModule],
+  imports: [MatProgressSpinnerModule, CardComponent, SkillListComponent, TranslateModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
@@ -47,9 +47,5 @@ export class ProjectsComponent implements OnInit {
         ? selected.filter(t => t !== tech)
         : [...selected, tech]
     );
-  }
-
-  isSelected(tech: string) {
-    return this.selectedTechs().includes(tech);
   }
 }

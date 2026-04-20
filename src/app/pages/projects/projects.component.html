@@ -7,15 +7,11 @@
   </section>
 
   <section class="section">
-    <div class="skills-grid">
-      @for (skill of skills(); track skill) {
-        <mat-chip
-          [class.active]="isSelected(skill)"
-          (click)="toggleTech(skill)">
-          {{ skill }}
-        </mat-chip>
-      }
-    </div>
+    <app-skill-list
+      [skills]="skills()"
+      [filterable]="true"
+      [selectedTechs]="selectedTechs()"
+      (techSelected)="toggleTech($event)" />
   </section>
 
   <section class="section">

@@ -26,18 +26,6 @@
   border-bottom: 0.5px solid var(--mat-sys-outline-variant);
 }
 
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: center;
-
-  mat-chip.active {
-    background-color: var(--mat-sys-primary) !important;
-    color: var(--mat-sys-on-primary) !important;
-  }
-}
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
