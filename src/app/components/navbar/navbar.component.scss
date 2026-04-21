@@ -1,8 +1,8 @@
 mat-toolbar {
-    position: sticky;
+  position: sticky;
   top: 0;
   z-index: 100;
-background-color: var(--mat-sys-surface-container) !important;
+  background-color: var(--mat-sys-surface-container) !important;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -13,9 +13,52 @@ background-color: var(--mat-sys-surface-container) !important;
     justify-content: center;
     gap: 4px;
 
-    button.active {
-      color: var(--mat-sys-primary)!important;
+    .mat-mdc-button.active {
+      color: var(--mat-sys-primary) !important;
       font-weight: 600;
     }
+  }
+
+  .desktop-menu {
+    @media (max-width: 768px) {
+      display: none !important;
+    }
+  }
+
+  .spacer {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: none !important;
+
+    @media (max-width: 768px) {
+      display: flex !important;
+      margin-left: auto;
+    }
+  }
+}
+
+.theme-btn {
+  @media (max-width: 768px) {
+    margin-left: auto;
+  }
+}
+
+.right-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  @media (max-width: 768px) {
+    margin-left: auto;
+  }
+}
+
+.mobile-menu-btn {
+  display: none !important;
+
+  @media (max-width: 768px) {
+    display: flex !important;
   }
 }

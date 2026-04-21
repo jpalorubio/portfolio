@@ -21,6 +21,10 @@ body {
   --mat-sys-surface-container-high: #d1d1d6;
   background-color: #cccdd4;
   color: var(--mat-sys-on-background);
+
+  @media (max-width: 768px) {
+    font-size: 16px;
+  }
 }
 
 body.dark-theme {

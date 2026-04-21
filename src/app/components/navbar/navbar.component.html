@@ -1,10 +1,8 @@
 <mat-toolbar>
 
- 
   <app-language-switcher></app-language-switcher>
 
-
-  <nav class="nav-menu">
+  <nav class="nav-menu desktop-menu">
     @for (obj of menu; track obj) {
       <button mat-button [routerLink]="obj.ruta" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
         {{ obj.label | translate }}
@@ -12,6 +10,19 @@
     }
   </nav>
 
-  <app-theme-switcher></app-theme-switcher>
+  <div class="right-actions">
+    <app-theme-switcher></app-theme-switcher>
+    <button mat-icon-button class="mobile-menu-btn" [matMenuTriggerFor]="mobileMenu">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+
+  <mat-menu #mobileMenu="matMenu">
+    @for (obj of menu; track obj) {
+      <button mat-menu-item [routerLink]="obj.ruta" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">
+        {{ obj.label | translate }}
+      </button>
+    }
+  </mat-menu>
 
 </mat-toolbar>

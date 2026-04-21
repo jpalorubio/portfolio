@@ -26,6 +26,10 @@ mat-card {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.3;
+
+    @media (max-width: 768px) {
+      font-size: 18px;
+    }
   }
 
   .project-type {
@@ -73,6 +77,10 @@ mat-card {
   height: 160px;
   overflow: hidden;
   border-radius: 12px 12px 0 0;
+
+  @media (max-width: 768px) {
+    height: 120px;
+  }
 
   img {
     width: 100%;

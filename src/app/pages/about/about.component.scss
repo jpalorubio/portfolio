@@ -2,6 +2,10 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 0 2rem;
+
+  @media (max-width: 768px) {
+    padding: 0 1rem;
+  }
 }
 
 .about-hero {
@@ -10,6 +14,13 @@
   align-items: center;
   padding: 4rem 0;
   border-bottom: 0.5px solid var(--mat-sys-outline-variant);
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 0;
+    gap: 1.5rem;
+  }
 
   .about-photo {
     flex-shrink: 0;
@@ -20,6 +31,11 @@
       border-radius: 50%;
       object-fit: cover;
       border: 2px solid var(--mat-sys-outline-variant);
+
+      @media (max-width: 768px) {
+        width: 140px;
+        height: 140px;
+      }
     }
   }
 
@@ -29,6 +45,10 @@
       font-weight: 500;
       margin: 0.5rem 0;
       color: var(--mat-sys-on-background);
+
+      @media (max-width: 768px) {
+        font-size: 1.8rem;
+      }
     }
 
     .about-role {
@@ -47,6 +67,10 @@
     .about-btns {
       display: flex;
       gap: 12px;
+
+      @media (max-width: 768px) {
+        justify-content: center;
+      }
     }
   }
 }
@@ -55,9 +79,12 @@
   padding: 3rem 0;
   border-bottom: 0.5px solid var(--mat-sys-outline-variant);
 
+  @media (max-width: 768px) {
+    padding: 2rem 0;
+  }
 }
 
-.section-label{
+.section-label {
   font-size: 20px !important;
 }
 
@@ -77,6 +104,12 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 4px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+    }
   }
 
   .timeline-company {

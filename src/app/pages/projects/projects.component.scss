@@ -2,17 +2,29 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 2rem;
+
+  @media (max-width: 768px) {
+    padding: 0 1rem;
+  }
 }
 
 .projects-hero {
   padding: 4rem 0 2rem;
   border-bottom: 0.5px solid var(--mat-sys-outline-variant);
 
+  @media (max-width: 768px) {
+    padding: 2rem 0 1.5rem;
+  }
+
   h1 {
     font-size: 2.5rem;
     font-weight: 500;
     margin: 0.5rem 0;
     color: var(--mat-sys-on-background);
+
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+    }
   }
 
   .projects-desc {
@@ -24,8 +36,13 @@
 .section {
   padding: 2rem 0;
   border-bottom: 0.5px solid var(--mat-sys-outline-variant);
+
+  @media (max-width: 768px) {
+    padding: 1.5rem 0;
+  }
 }
-.section-label{
+
+.section-label {
   font-size: 20px;
 }
 
@@ -33,6 +50,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .loading {
