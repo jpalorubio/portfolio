@@ -1,6 +1,7 @@
 @use '@angular/material' as mat;
 
 html, body {
+  font-family: 'Outfit', sans-serif;
   margin: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
   @include mat.theme((
@@ -28,15 +29,19 @@ body {
 }
 
 body.dark-theme {
-  background-color: var(--mat-sys-background);
   @include mat.theme((
     color: (
       theme-type: dark,
       primary: mat.$azure-palette,
     ),
   ));
-}
 
+  background: 
+    linear-gradient(rgba(59, 130, 246, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.04) 1px, transparent 1px),
+    linear-gradient(135deg, #0a0a0f 0%, #0d1117 50%, #0a0f1a 100%);
+  background-size: 40px 40px, 40px 40px, 100% 100%;
+}
 .section-label {
   font-size: 13px;
   letter-spacing: 0.12em;
