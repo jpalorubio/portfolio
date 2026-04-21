@@ -98,3 +98,4 @@ export class ContactComponent implements AfterViewInit {
     }, 500);
   }
 }
+
