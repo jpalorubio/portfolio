@@ -7,7 +7,7 @@
     "image": "../../../assets/img/projects/portfolio.png",
     "techs": ["HTML", "CSS", "JavaScript"],
     "urlDemo": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal/Demo",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal"
+    "urlCode": "https://github.com/jpalorubio/portfolio"
   },
   {
     "id": "tasks",
