@@ -29,45 +29,20 @@
       "type": "Static Website",
       "desc": "Personal website to showcase my profile, studies and projects as a DAW student."
     },
-    "tasks": {
-      "name": "Task Manager",
+    "zafisio": {
+      "name": "Zafisio, Online Physiotherapy",
       "type": "Web App",
-      "desc": "Web application to create, edit and delete tasks with basic user authentication."
+      "desc": "Web application to manage appointments and sessions for online physiotherapy."
     },
-    "shop": {
-      "name": "DAW Online Store",
-      "type": "E-commerce",
-      "desc": "Online store project with product listing, shopping cart and order system."
-    },
-    "apiUsers": {
-      "name": "User Management API",
-      "type": "REST API",
-      "desc": "Simple REST API for user management with CRUD operations."
-    },
-    "blog": {
-      "name": "DAW Blog",
+    "retroMtg": {
+      "name": "Retro MTG, Magic: The Gathering Community",
       "type": "Web App",
-      "desc": "Blog-style web application with posts and comments system."
-    },
-    "library": {
-      "name": "Library Management",
-      "type": "Desktop Application",
-      "desc": "Desktop application to manage books and loans developed as a programming practice."
-    },
-    "adminPanel": {
-      "name": "Administration Panel",
-      "type": "Web App",
-      "desc": "Administration panel to manage users and application content."
-    },
-    "reservations": {
-      "name": "Reservation Website",
-      "type": "Web App",
-      "desc": "Web application to manage reservations for a fictitious business with a database."
+      "desc": "Community platform for Magic: The Gathering enthusiasts. Currently in development."
     }
   }
   ,
   "buttons": {
-    "demo": "View Demo",
+    "web": "View Website",   
     "code": "View Code"
 }
 

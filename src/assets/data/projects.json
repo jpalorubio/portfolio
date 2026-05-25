@@ -5,78 +5,28 @@
     "type": "card.projects.portfolio.type",
     "desc": "card.projects.portfolio.desc",
     "image": "../../../assets/img/projects/portfolio.png",
-    "techs": ["HTML", "CSS", "JavaScript"],
-    "urlDemo": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal/Demo",
+    "techs": ["HTML", "SCSS", "Angular", "TypeScript"],
+    "urlWeb": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal/Demo",
     "urlCode": "https://github.com/jpalorubio/portfolio"
   },
   {
-    "id": "tasks",
-    "name": "card.projects.tasks.name",
-    "type": "card.projects.tasks.type",
-    "desc": "card.projects.tasks.desc",
-    "image": "../../../assets/img/projects/tasks.png",
-    "techs": ["PHP", "MySQL", "HTML", "CSS"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/GestorTareas"
+    "id": "zafisio",
+    "name": "card.projects.zafisio.name",
+    "type": "card.projects.zafisio.type",
+    "desc": "card.projects.zafisio.desc",
+    "image": "../../../assets/img/projects/zafisio.png",
+    "techs": ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    "urlWeb": "https://zafisio.infinityfreeapp.com/#home",
+    "urlCode": ""
   },
   {
-    "id": "shop",
-    "name": "card.projects.shop.name",
-    "type": "card.projects.shop.type",
-    "desc": "card.projects.shop.desc",
-    "image": "../../../assets/img/projects/shop.jpg",
-    "techs": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/TiendaOnline"
-  },
-  {
-    "id": "apiUsers",
-    "name": "card.projects.apiUsers.name",
-    "type": "card.projects.apiUsers.type",
-    "desc": "card.projects.apiUsers.desc",
-    "image": "../../../assets/img/projects/apiusers.jpg",
-    "techs": ["Spring Boot", "Java", "MySQL"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/ApiGestionUsuarios"
-  },
-  {
-    "id": "blog",
-    "name": "card.projects.blog.name",
-    "type": "card.projects.blog.type",
-    "desc": "card.projects.blog.desc",
-    "image": "../../../assets/img/projects/blog.jpeg",
-    "techs": ["PHP", "MySQL", "HTML", "CSS"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/BlogDaw"
-  },
-  {
-    "id": "library",
-    "name": "card.projects.library.name",
-    "type": "card.projects.library.type",
-    "desc": "card.projects.library.desc",
-    "image": "../../../assets/img/projects/library.jpg",
-    "techs": ["Java", "JavaFX"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/GestionBiblioteca"
-  },
-  {
-    "id": "adminPanel",
-    "name": "card.projects.adminPanel.name",
-    "type": "card.projects.adminPanel.type",
-    "desc": "card.projects.adminPanel.desc",
-    "image": "../../../assets/img/projects/adminpanel.webp",
-    "techs": ["Angular", "TypeScript", "CSS"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PanelAdmin"
-  },
-  {
-    "id": "reservations",
-    "name": "card.projects.reservations.name",
-    "type": "card.projects.reservations.type",
-    "desc": "card.projects.reservations.desc",
-    "image": "../../../assets/img/projects/reservations.jpg",
-    "techs": ["PHP", "MySQL", "JavaScript"],
-    "urlDemo": "",
-    "urlCode": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/WebReservas"
+    "id": "retroMtg",
+    "name": "card.projects.retroMtg.name",
+    "type": "card.projects.retroMtg.type",
+    "desc": "card.projects.retroMtg.desc",
+    "image": "../../../assets/img/projects/retromtg.png",
+    "techs": ["PostgreSQL", "Angular", "TypeScript", "SCSS", "HTML", "Supabase"],
+    "urlWeb": "https://retro-mtg.vercel.app/",
+    "urlCode": ""
   }
 ]

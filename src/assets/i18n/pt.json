@@ -29,44 +29,19 @@
       "type": "Site Estático",
       "desc": "Site pessoal para apresentar meu perfil, estudos e projetos como estudante de DAW."
     },
-    "tasks": {
-      "name": "Gerenciador de Tarefas",
+    "zafisio": {
+      "name": "Zafisio, Terapia Física Online",
       "type": "Web App",
-      "desc": "Aplicação web para criar, editar e excluir tarefas com autenticação básica de usuários."
+      "desc": "Aplicação web para gestionar citas y sesiones de terapia física online."
     },
-    "shop": {
-      "name": "Loja Online DAW",
-      "type": "E-commerce",
-      "desc": "Projeto de loja online com listagem de produtos, carrinho de compras e sistema de pedidos."
-    },
-    "apiUsers": {
-      "name": "API de Gestão de Usuários",
-      "type": "API REST",
-      "desc": "API REST simples para gerenciamento de usuários com operações CRUD."
-    },
-    "blog": {
-      "name": "Blog DAW",
+    "retroMtg": {
+      "name": "Retro MTG, Comunidade de Magic: The Gathering",
       "type": "Web App",
-      "desc": "Aplicação web estilo blog com sistema de publicações e comentários."
-    },
-    "library": {
-      "name": "Gestão de Biblioteca",
-      "type": "Aplicação Desktop",
-      "desc": "Programa para gerenciar livros e empréstimos desenvolvido como prática de programação."
-    },
-    "adminPanel": {
-      "name": "Painel de Administração",
-      "type": "Web App",
-      "desc": "Painel de administração para gerenciar usuários e conteúdos de uma aplicação web."
-    },
-    "reservations": {
-      "name": "Site de Reservas",
-      "type": "Web App",
-      "desc": "Aplicação web para gerenciar reservas de um negócio fictício com base de dados."
+      "desc": "Plataforma comunitária para entusiastas de Magic: The Gathering. Atualmente em desenvolvimento."
     }
   },
 "buttons": {
-  "demo": "Ver Demonstração",
+  "web": "Ver Site Web",
   "code": "Ver Código"
 }   
   

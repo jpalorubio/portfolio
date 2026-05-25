@@ -29,9 +29,9 @@
   </mat-card-content>
 
   <mat-card-actions>
-    @if (project().urlDemo) {
-      <a mat-button [href]="project().urlDemo" target="_blank">
-        {{ 'card.buttons.demo' | translate }}
+    @if (project().urlWeb) {
+      <a mat-button [href]="project().urlWeb" target="_blank">
+        {{ 'card.buttons.web' | translate }}
       </a>
     }
     @if (project().urlCode) {

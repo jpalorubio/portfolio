@@ -4,7 +4,7 @@ export interface Project {
   desc: string;
   image?: string;
   techs: string[];
-  urlDemo?: string;
+  urlWeb?: string;
   urlCode?: string;
 }
 
