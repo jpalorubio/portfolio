@@ -5,7 +5,7 @@
     "type": "card.projects.portfolio.type",
     "desc": "card.projects.portfolio.desc",
     "image": "../../../assets/img/projects/portfolio.png",
-    "techs": ["HTML", "SCSS", "Angular", "TypeScript","Angular Material", "nodemailer"],
+    "techs": ["HTML", "SCSS", "Angular", "TypeScript","Angular Material", "nodemailer", "GSAP"],
     "urlWeb": "https://jesus-palo-rubio.vercel.app/",
     "urlCode": ""
   },
