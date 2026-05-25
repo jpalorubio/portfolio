@@ -5,9 +5,7 @@
     "type": "card.projects.portfolio.type",
     "desc": "card.projects.portfolio.desc",
     "image": "../../../assets/img/projects/portfolio.png",
-    "techs": ["HTML", "SCSS", "Angular", "TypeScript","Angular Material", "nodemailer
-    
-    "],
+    "techs": ["HTML", "SCSS", "Angular", "TypeScript","Angular Material", "nodemailer"],
     "urlWeb": "https://github.com/jpalorubio/ProyectosPortFolio/tree/main/PortfolioPersonal/Demo",
     "urlCode": ""
   },
