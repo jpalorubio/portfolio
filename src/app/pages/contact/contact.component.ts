@@ -74,28 +74,22 @@ export class ContactComponent implements AfterViewInit {
     });
   }
 
-  send() {
-    if (this.form.invalid) {
-      this.form.markAllAsTouched();
-      return;
-    }
-
-    this.sending.set(true);
-
-    const ok = this.contactService.send(this.form.value as any);
-
-    setTimeout(() => {
-      this.sending.set(false);
-      this.sent.set(ok);
-      if (ok) {
-        this.form.reset();
-        this.form.markAsUntouched();
-        this.form.markAsPristine();
-        Object.keys(this.form.controls).forEach(key => {
-          this.form.get(key)?.setErrors(null);
-        });
-      }
-    }, 500);
+ async send() {
+  if (this.form.invalid) {
+    this.form.markAllAsTouched();
+    return;
   }
+
+  this.sending.set(true);
+
+  const ok = await this.contactService.send(this.form.value as any);
+
+  this.sending.set(false);
+  this.sent.set(ok);
+
+  if (ok) {
+    this.form.reset();
+  }
+}
 }
 
