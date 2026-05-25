@@ -60,13 +60,13 @@
       {
         "role": "IT Management Technician",
         "company": "Lider Aliment S.A",
-        "duration": "2021 - 2025",
+        "period": "2021 - 2025",
         "description": "Data management and processing using Excel, technical support for users, and collaboration on technological improvement projects."
       },
       {
         "role": "Computer Instructor",
         "company": "Zafra City Council",
-        "duration": "2016/2017 - 2019/2020",
+        "period": "2016/2017 - 2019/2020",
         "description": "Delivery of basic computer courses for adults, including operating systems usage, office software, and internet navigation."
       }
     ]

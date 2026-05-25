@@ -60,13 +60,13 @@
             {
                 "role": "Tecnico informático de gestion",
                 "company": "Lider Aliment S.A",
-                "duration": "2021 - 2025",
+                "period": "2021 - 2025",
                 "description": "Gestion y tratamientos de datos con Excel, soporte técnico a usuarios, y colaboración en proyectos de mejora tecnológica."
             },
             {
                 "role": "Monitor informático",
                 "company": "Ayuntamiento de Zafra",
-                "duration": "2016/2017 - 2019/2020",
+                "period": "2016/2017 - 2019/2020",
                 "description": "Impartición de cursos de informática básica para adultos, incluyendo manejo de sistemas operativos, ofimática y navegación por internet."
             }
         ]
