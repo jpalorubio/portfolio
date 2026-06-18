@@ -28,6 +28,11 @@
         </div>
         <p class="timeline-role">{{ exp.role  }}</p>
         <p class="timeline-desc">{{ exp.description}}</p>
+        <ul class="timeline-functions">
+  @for (func of exp.functions; track $index) {
+    <li>{{ func }}</li>
+  }
+</ul>
       </div>
     }
   </section>

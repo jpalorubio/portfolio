@@ -13,6 +13,7 @@ export interface ExperienceItem {
   role: string;
   period: string;
   description: string;
+   functions: string[];
 }
 
 export interface EducationItem {
