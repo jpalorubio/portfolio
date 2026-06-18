@@ -57,16 +57,62 @@
     "title": "Experiência",
     "items": [
       {
+        "role": "Desenvolvedor Full Stack",
+        "company": "Plexus Tech",
+        "period": "Março 2026 - Junho 2026",
+        "description": "Estágio focado no desenvolvimento de aplicações web.",
+        "functions": [
+          "Desenvolvimento Frontend com Angular.",
+          "Desenvolvimento Backend com Spring Boot.",
+          "Gestão e tratamento de bases de dados."
+        ]
+      },
+      {
         "role": "Técnico de Gestão Informática",
         "company": "Lider Aliment S.A",
         "period": "2021 - 2025",
-        "description": "Gestão e tratamento de dados com Excel, suporte técnico a usuários e colaboração em projetos de melhoria tecnológica."
+        "description": "Gestão e tratamento de dados com Excel, suporte técnico aos utilizadores e colaboração em projetos de melhoria tecnológica.",
+        "functions": [
+          "Gestão e criação de folhas de cálculo.",
+          "Resolução de incidências.",
+          "Gestão e envio de ofertas comerciais.",
+          "Apoio aos diferentes departamentos da empresa.",
+          "Controlo e tratamento de dados.",
+          "Funções administrativas."
+        ]
       },
       {
-        "role": "Monitor de Informática",
+        "role": "Formador de Informática",
         "company": "Câmara Municipal de Zafra",
         "period": "2016/2017 - 2019/2020",
-        "description": "Ministração de cursos de informática básica para adultos, incluindo uso de sistemas operacionais, aplicações de escritório e navegação na Internet."
+        "description": "Técnico de informática em programa municipal de apoio a pessoas desempregadas:",
+        "functions": [
+          "Formador de cursos de novas tecnologias (Access, Excel, Contabilidade, Literacia Digital).",
+          "Gestão de redes sociais.",
+          "Desenvolvimento de cursos online através de ferramentas como Discord, Google Classroom, Slack, Trello e Zoom.",
+          "Atendimento personalizado aos utilizadores e apoio informático a outras áreas.",
+          "Porta-voz em programas de rádio para promover o projeto e os cursos."
+        ]
+      },
+      {
+        "role": "Rececionista e Assistente Administrativa",
+        "company": "Extremeña de Gestión Sanitaria y Especialidades Médicas S.L (Hospital Parque Vía de la Plata)",
+        "period": "Abril 2019 - Junho 2019",
+        "description": "Estágio em Administração e Finanças.",
+        "functions": [
+          "Atendimento ao cliente e gestão de marcações.",
+          "Arquivo e organização de documentos.",
+          "Desenvolvimento de competências de comunicação com o público."
+        ]
+      },
+      {
+        "role": "Desenvolvedor COBOL",
+        "company": "Indra Software Labs",
+        "period": "Abril 2015 - Junho 2015",
+        "description": "Estágio em Administração de Sistemas Informáticos em Rede.",
+        "functions": [
+          "Desenvolvimento de software para o setor bancário utilizando COBOL."
+        ]
       }
     ]
   },
@@ -74,19 +120,32 @@
     "title": "Educação",
     "items": [
       {
-        "degree": "Licenciatura em Desenvolvimento de Aplicações Web",
-        "institution": "I.E.S Suarez de Figueroa",
+        "degree": "Curso Superior de Desenvolvimento de Aplicações Web",
+        "institution": "I.E.S. Suárez de Figueroa",
         "duration": "2024 - 2026"
       },
       {
-        "degree": "Administração de Sistemas Informáticos em Rede",
-        "institution": "I.E.S Suarez de Figueroa",
+        "degree": "Curso Superior de Administração e Finanças",
+        "institution": "I.E.S. Cristo del Rosario",
+        "duration": "2016 - 2019"
+      },
+      {
+        "degree": "Curso Superior de Administração de Sistemas Informáticos em Rede",
+        "institution": "I.E.S. Suárez de Figueroa",
         "duration": "2013 - 2015"
+      },
+      {
+        "degree": "Impulsionador da Transformação Digital e Indústria 4.0",
+        "institution": "EOI (Escola de Organização Industrial)",
+        "duration": "2021"
+      },
+      {
+        "degree": "Especialista Universitário em Perícia Informática e Informática Forense",
+        "institution": "UNIR",
+        "duration": "2019"
       }
     ]
-  }
-
-},
+  },
 "projectsTranslation": {
     "title": "Projetos",
     "subtitle": "O que eu construí",
