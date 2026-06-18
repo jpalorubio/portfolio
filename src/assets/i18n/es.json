@@ -67,7 +67,14 @@
                 "role": "Monitor informático",
                 "company": "Ayuntamiento de Zafra",
                 "period": "2016/2017 - 2019/2020",
-                "description": "Impartición de cursos de informática básica para adultos, incluyendo manejo de sistemas operativos, ofimática y navegación por internet."
+                "description": "Técnico informático en programa de atención municipal a personas desempleadas:.
+-Monitor cursos en nuevas tecnologías (Access, Excel, Contabilidad, Alfabetización
+-Digital)
+-Control de Redes Sociales.
+-Desarrollo de cursos Online a través de herramientas como Discord, Google
+-Classroom, Slack, Trello, Zoom.
+-Atención personalizada a usuarios. Tareas de apoyo informático a otras áreas.
+-Portavoz a través de la radio para promocionar el programa y cursos."
             }
         ]
     },
@@ -75,14 +82,31 @@
         "title": "Educación",
         "items": [
             {
-                "degree": "Grado en Desarrollo de Aplicaciones Web",
+                "degree": "Grado Superior en Desarrollo de Aplicaciones Web",
                 "institution": "I.E.S Suarez de Figueroa",
                 "duration": "2024 - 2026"
             },
             {
-                "degree": "Administración de Sistemas Informáticos en Red",
+                "degree": "Grado Superior Administración y Finanzas",
+                "institution": "I.E.S Cristo del Rosario",
+                "duration": "2016 - 2019"
+            }
+            ,
+            {
+                "degree": "Grado Superior Administración de Sistemas Informáticos en Red",
                 "institution": "I.E.S Suarez de Figueroa",
                 "duration": "2013 - 2015"
+            } ,
+            {
+                "degree": "Impulsor de la Transformación Digital e Industria 4.0",
+                "institution": "EOI (Escuela de Organización Industrial",
+                "duration": "2021"
+            }
+            ,
+            {
+                "degree": "Experto Universitario en Peritaje Informático e Informática Forense",
+                "institution": "UNIR",
+                "duration": "2019"
             }
         ]
     }
