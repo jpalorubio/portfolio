@@ -10,7 +10,7 @@
     "hero": {
       "tag": "Disponible para proyectos",
       "title": "¡Hola, soy Jesús!",
-      "subtitle": "Desarrollador Full Stack",
+      "subtitle": "Administrador de Sistemas Informáticos y Desarrollador Full Stack",
       "desc": "Construyo aplicaciones web modernas, escalables y con buena experiencia de usuario.   ",
       "buttons": {
         "viewProjects": "Ver proyectos",
@@ -26,7 +26,7 @@
       "portfolio": {
         "name": "Portfolio Personal",
         "type": "Web Estática",
-        "desc": "Sitio web personal para presentar mi perfil, estudios y proyectos como estudiante de DAW."
+        "desc": "Sitio web personal para presentar mi perfil, estudios y proyectos"
       },
       "zafisio": {
         "name": "Zafisio, Terapia Física Online",
@@ -46,7 +46,7 @@
   },
   "about": {
     "sectionLabel": "Sobre mí",
-    "description": "Soy un desarrollador full stack con experiencia en la creación de aplicaciones web modernas y escalables. Me apasiona aprender nuevas tecnologías y mejorar mis habilidades constantemente. Mi objetivo es contribuir a proyectos innovadores y seguir creciendo profesionalmente en el mundo del desarrollo web.",
+    "description": "Soy desarrollador de aplicaciones web con formación en Desarrollo de Aplicaciones Web (DAW) y Administración de Sistemas Informáticos en Red (ASIR). Me apasiona crear aplicaciones modernas, escalables y eficientes, combinando conocimientos de desarrollo frontend y backend con una sólida base en sistemas, redes y administración de infraestructuras. Disfruto aprendiendo nuevas tecnologías y mejorando continuamente mis habilidades para aportar valor a proyectos innovadores y seguir creciendo profesionalmente en el sector tecnológico.",
     "buttons": {
       "downloadCV": "Descargar CV",
       "contact": "Contacto"
@@ -132,7 +132,7 @@
         },
         {
           "degree": "Impulsor de la Transformación Digital e Industria 4.0",
-          "institution": "EOI (Escuela de Organización Industrial",
+          "institution": "EOI (Escuela de Organización Industrial)",
           "duration": "2021"
         },
         {

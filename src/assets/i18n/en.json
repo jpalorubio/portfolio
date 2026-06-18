@@ -27,7 +27,7 @@
     "portfolio": {
       "name": "Personal Portfolio",
       "type": "Static Website",
-      "desc": "Personal website to showcase my profile, studies and projects as a DAW student."
+      "desc": "Personal website to showcase my profile, studies and projects."
     },
     "zafisio": {
       "name": "Zafisio, Online Physiotherapy",
@@ -45,11 +45,10 @@
     "web": "View Website",   
     "code": "View Code"
 }
-
 },
 "about": {
     "sectionLabel": "About",
-    "description": "I'm a full stack developer with experience in building modern, scalable web applications. I'm passionate about learning new technologies and constantly improving my skills. My goal is to contribute to innovative projects and continue growing professionally in the world of web development.",
+    "description": "I am a web application developer with a background in Web Application Development (DAW) and Network Systems Administration (ASIR). I am passionate about building modern, scalable, and efficient applications, combining frontend and backend development skills with a solid foundation in systems, networking, and infrastructure administration. I enjoy learning new technologies and continuously improving my skills to contribute to innovative projects and continue growing professionally in the technology sector.",
     "buttons": {
         "downloadCV": "Download CV",
         "contact": "Contact"
@@ -146,7 +145,7 @@
         "duration": "2019"
       }
     ]
-  },
+  }},
 
   "projectsTranslation": {
     "title": "Projects",

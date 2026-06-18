@@ -27,7 +27,7 @@
     "portfolio": {
       "name": "Portfólio Pessoal",
       "type": "Site Estático",
-      "desc": "Site pessoal para apresentar meu perfil, estudos e projetos como estudante de DAW."
+      "desc": "Site pessoal para apresentar meu perfil, estudos e projetos."
     },
     "zafisio": {
       "name": "Zafisio, Terapia Física Online",
@@ -48,7 +48,7 @@
 },
 "about": {
     "sectionLabel": "Sobre",
-    "description": "Sou um desenvolvedor full stack com experiência em construir aplicações web modernas e escaláveis. Sou apaixonado por aprender novas tecnologias e melhorar constantemente minhas habilidades. Meu objetivo é contribuir para projetos inovadores e continuar crescendo profissionalmente no mundo do desenvolvimento web.",
+    "description": "Sou desenvolvedor de aplicações web com formação em Desenvolvimento de Aplicações Web (DAW) e Administração de Sistemas Informáticos em Rede (ASIR). Sou apaixonado por criar aplicações modernas, escaláveis e eficientes, combinando conhecimentos de desenvolvimento frontend e backend com uma sólida base em sistemas, redes e administração de infraestruturas. Gosto de aprender novas tecnologias e de melhorar continuamente as minhas competências para contribuir para projetos inovadores e continuar a crescer profissionalmente no setor tecnológico.",
     "buttons": {
         "downloadCV": "Baixar CV",
         "contact": "Contato"
@@ -145,7 +145,7 @@
         "duration": "2019"
       }
     ]
-  },
+  }},
 "projectsTranslation": {
     "title": "Projetos",
     "subtitle": "O que eu construí",
